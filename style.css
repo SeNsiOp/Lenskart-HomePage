@@ -1,0 +1,336 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  font-family: lenskart2;
+}
+@font-face {
+    font-family: lenskart;
+    src: url(./LenskartSans-Regular.otf);
+}
+@font-face {
+    font-family: lenskart2;
+    src: url(./Lenskart-Serif-Book.otf);
+}
+@font-face {
+    font-family: lenskart3;
+    src: url(./Lenskart-Serif-UltraLight.otf);
+}
+@font-face {
+    font-family: lenskart4;
+    src: url(./LenskartSans-Hairline.otf);
+}
+.mainBody{
+    height: 100vh;
+    width: 100vw;
+    border: 0px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.art{
+    padding-bottom: 0;
+    padding: 12px 12px;
+    font-size: smaller;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}
+.art a{
+    height: 20px;
+    font-size: smaller;
+    padding: 5px 10px;
+    color: rgba(128, 128, 128, 0.822);
+    text-decoration: none;
+    border-right: 1px solid gray;
+}
+.art .cont{
+    margin: 0 auto;
+    margin-left: 35%;
+    border-right: none;
+}
+
+.fnav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;  
+}
+
+.fnav a{
+    font-family: lenskart1;
+    color: black;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+}
+.search1{
+    font-family: lenskart4;
+    width: 700px;
+    height: 30px;
+    border-radius: 3px;
+    text-align: center;
+    border: 2px solid rgba(206, 206, 206, 0.836);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo{
+    width: 180px;
+}
+.phn{
+    font-size: x-large;
+    font-weight: bold;
+}
+.search1 .inp{
+    outline: none;
+     width: 700px;
+     font-size: larger;
+     height: 25px;
+     margin: 0 auto;
+     border: 0px solid transparent;
+     margin-left: 6px;
+     border-radius: 3px; 
+ } 
+ .search1 .bx{
+     font-size: x-large;
+ }
+.snav{
+    height: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-between;
+    padding: 15px 300px 20px 15px;
+    background-color: rgb(242, 242, 242);
+    margin-bottom: 10px;
+}
+.snav a{
+    font-family: lenskart1;
+    height: 100%;
+    font-size: small;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid transparent;
+}
+
+.purpose{
+    width: 100%;
+    color: white;
+}
+ #purpose .headinmg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+ }
+ #purpose .headinmg p,h1{
+   width: 100%;
+   text-align: center;
+   padding: 2px;
+ }
+ #purpose .headinmg h1
+{
+    padding: 10px;
+    font-size: 35px;
+    font-weight: 300;
+}.purpose img{
+    width: 100%;
+}
+
+.eh3{
+
+    width: 100%;
+}
+.eh3{
+   
+    width: 100%;
+}
+.eh2{
+    width: 100%;
+}
+.focus{
+    padding: 10px 20px;
+}
+.focus p,h1,h2{
+    width: 100%;
+    text-align: center;
+    padding: 2px;
+}
+.focus h1{
+    padding: 10px;
+    font-family: lenskart4;
+}
+.focus p{
+    font-family: lenskart4;
+}
+
+#eyeWear{
+    width: 100%;
+    height: 500px;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: auto;
+    padding: 0px 20px;
+    border: none;
+}
+#eyeWear .eh1{
+    text-align: center;
+    font-family: lenskart3;
+}
+#eyeWear .cart{
+    height: 90%;
+    width: 1220px ;
+    border: 1px solid;
+    margin: 0px 20px;
+    border: none;
+    background-color: azure;
+}
+
+.img1{
+    width: 880px;
+    height: 70%;
+}
+
+#eyeWear::-webkit-scrollbar{
+    display: none;
+}
+#eyeWear .cart p{
+    padding: 0px 50px;
+}
+#eyeWear .cart h2{
+    padding: 0px 50px;
+}
+
+#eyeWear1{
+    width: 100%;
+    height: 600px;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: auto;
+    padding: 0px 30px;
+    border: none;
+
+}
+#eyeWear1 .cart1{
+    height: 90%;
+    width: 1200px ;
+    border: 1px solid;
+    margin: 0px 20px;
+    padding: 10px 30px;
+    border: none;
+}
+.heading{
+    width: 100%;
+}
+.heading h1,p{
+    width: 100%;
+    text-align: center;
+}
+.heading h1{
+    padding: 20px;
+}
+.heading p{
+    padding: 1px;
+}
+.img2{
+    width: 300px;
+    height: 70%;
+}
+#eyeWear1 .cart1 img{
+    height: 350px;
+    width: 350px;
+}
+#eyeWear1 .cart1 p{
+    padding: 0px 30px;
+}
+#eyeWear1 .cart1 h2{
+    padding: 0px 30px;
+}
+
+#purpose{
+    width: 100%;
+    height: 1200px;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#purpose #fun{  
+    position: relative;
+    height: 700px;
+    width: 1100px;
+    border: none;
+}
+#purpose #fun div{
+    border: none;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+
+}
+.div1{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.div1 h2{
+   padding: 20px 50px;
+   text-align: start;
+}
+.div1 p{
+    padding: 10px 50px; 
+    text-align: start;
+}
+
+.div4 h2{
+    padding: 20px 50px;
+    text-align: start;
+ }
+ .div4 p{
+     padding: 10px 50px;
+     text-align: start; 
+ }
+.div3{
+    position: relative;
+    bottom: 0;
+    left: 0; 
+}
+.div2{
+    
+    position: relative;
+    top: 0;
+    right: 0; 
+}
+.div4{
+    position: relative;
+    bottom: 0;
+    right: 0; 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+}
+#fun div img{
+    position: absolute;
+    width: 100%;
+    height: 350px;
+}
+footer img{
+    width: 100%;
+}
+h1,p{
+    font-family: lenskart;
+}
